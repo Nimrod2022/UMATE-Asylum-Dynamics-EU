@@ -42,7 +42,7 @@ def index(request):
 
     # Encode the address for URL
     address = requests.utils.quote(address)
-    api_key = 'AIzaSyCofEHIsoFbtmxqUvDMQgbHTRIfJ1yrARI'
+    api_key = 'APIKEY'
     #print(all_data)
     items_list = [item for entry in all_data for item in entry['items']]
     #print(items_list)
